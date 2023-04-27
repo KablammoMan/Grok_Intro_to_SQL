@@ -1,0 +1,6 @@
+select occupation,country,real_wage
+from Wage
+where country in ('Germany', 'Australia', 'United States')
+and industry = 'Education services'
+and year = 1998
+order by occupation asc, country asc
