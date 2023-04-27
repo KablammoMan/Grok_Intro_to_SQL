@@ -1,0 +1,5 @@
+select year,refugees
+from People
+where destination = 'Pakistan'
+and origin = 'Afghanistan'
+order by year desc
