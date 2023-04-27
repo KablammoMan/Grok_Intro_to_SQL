@@ -1,0 +1,6 @@
+select asylum_seekers,origin
+from People
+where asylum_seekers > 0
+and year = 2013
+and destination = 'Australia'
+order by asylum_seekers desc
