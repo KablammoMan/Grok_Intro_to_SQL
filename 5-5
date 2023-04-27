@@ -1,0 +1,4 @@
+select country,gold,bronze,silver
+from CountryMedal
+where gold > 0
+order by gold desc, bronze desc, silver desc, country desc
