@@ -1,0 +1,6 @@
+select year,wage,real_wage
+from Wage
+where occupation = 'General physician'
+and industry = 'Medical and dental services'
+and country = 'Australia'
+order by year desc
